@@ -39,7 +39,7 @@ class _GymManeAppState extends State<GymManeApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'GymMane',
+        title: 'IronTime',
         debugShowCheckedModeBanner: false,
         theme: AppTheme.light,
         darkTheme: _look.$3 ? AppTheme.amoled : AppTheme.dark,
