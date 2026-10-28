@@ -1912,7 +1912,8 @@ class SessionScreen extends StatelessWidget {
                 index: 2,
                 child: vsLast != null ? _vsLastCard(gc, vsLast) : _firstTimeCard(gc),
               ),
-            ],
+            ],const SizedBox(height: 10),
+Rise(index: 2, child: IronTimeInsightCard(sets: sets)),
             AnimatedSize(
               duration: const Duration(milliseconds: 280),
               curve: Curves.easeOutCubic,
