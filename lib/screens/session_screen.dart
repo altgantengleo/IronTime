@@ -15,6 +15,7 @@ import '../widgets/entrance.dart';
 import '../widgets/exercise_media.dart';
 import '../widgets/exercise_preview.dart';
 import '../widgets/glass.dart';
+import '../widgets/irontime_card.dart';
 import '../widgets/liquid_notch.dart';
 import '../widgets/set_kind.dart';
 import '../widgets/share_cards.dart';
